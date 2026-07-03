@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just a Todo...?</title>
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="TL-Styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Your Mission Begins Here...</h1>
+      <div class="intro" id="intro">
+        <p id="intro-text"></p>
+        <!-- <img
+          src="assets/066a9100-f36e-11ef-a439-afb91bce12f7.gif"
+          alt="icon"
+          class="intro-icon"
+        /> just a usless img-->
+      </div>
+      <div class="intro-btn">
+        <button id="start-btn" class="start-btn">Start Managing</button>
+      </div>
+    </header>
+    <main>
+      <div class="input-section">
+        <input
+          type="text"
+          placeholder="Define your next move..."
+          class="todo-input"
+          id="todo-input"
+        />
+        <button class="add-btn" id="add-btn">ADD</button>
+      </div>
+      <h2 class="mt">MISSIONS:</h2>
+      <div class="missions" id="missions">
+        <ul class="todo-list" id="todo-list"></ul>
+        <div class="filter-section">
+          <button id="all">ALL</button>
+          <button id="done">DONE</button>
+          <button id="active">ACTIVE</button>
+        </div>
+      </div>
+    </main>
+    <script src="TL.js"></script>
+  </body>
+</html>
